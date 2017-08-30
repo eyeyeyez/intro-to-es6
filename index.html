@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>eyeyeyez</title>
+<style>
+body {
+	background: #B9E3AE url("pp.png") no-repeat right bottom;
+}
+.keyb{
+	align:center;
+	margin-left: 130px;
+	margin-top: 40px;
+}
+#div1 {
+	border-radius: 5px;
+    float:left;
+    width:50px;
+    height:50px;
+    border:outset 2px;
+    text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	background-color: #FCFDD5;
+	cursor:pointer;
+}
+#div1:hover{
+	border:inset 2px;
+}
+#div2{clear: left;}
+#divback{
+	width:90px;
+    height:50px;
+	border-radius: 5px;
+    float:left;
+	border:outset 2px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	background-color: #FCFDD5;	
+	cursor:pointer;
+}
+#divback:hover{
+	border:inset 2px;
+}
+#divclear{
+	width:105px;
+    height:50px;
+	border-radius: 5px;
+    float:left;
+	border:outset 2px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	background-color: #FCFDD5;	
+	cursor:pointer;
+}
+#divclear:hover{
+	border:inset 2px;
+}
+#divem{
+	width:50px;
+    height:50px;
+	border-radius: 5px;
+    float:left;
+	border:outset 2px ;
+	background-color:#B9E3AE;
+}
+#divx1{
+	width:40px;
+    height:50px;
+	border-radius: 5px;
+    float:left;
+	border:outset 2px ;
+	background-color:#B9E3AE;
+}
+#divx2{
+	width:65px;
+    height:50px;
+	border-radius: 5px;
+    float:left;
+	border:outset 2px ;
+	background-color:#B9E3AE;
+}
+#divx3{
+	width:80px;
+    height:50px;
+	border-radius: 5px;
+    float:left;
+	border:outset 2px ;
+	background-color:#B9E3AE;
+}
+#divx4{
+	width:120px;
+    height:50px;
+	border-radius: 5px;
+    float:left;
+	border:outset 2px ;
+	background-color:#B9E3AE;
+}
+#divsp{
+	width:280px;
+    height:50px;
+	border-radius: 5px;
+    float:left;
+	border:outset 2px ;
+	background-color: #FCFDD5;
+	cursor:pointer;
+}
+#divsp:hover{
+	border:inset 2px;
+}
+#out{
+	width:785px;
+    height:200px;
+	border:double 2px gray;
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	margin-top: 40px;
+	background-color:#FCFDD5;
+}
+
+</style>
+</head>
+<body>
+<div class="keyb">
+<div id='div11'>
+	<div id='divx1'></div>
+	<div id='div1' onclick='word(this.innerHTML)'>1</div>
+	<div id='div1' onclick='word(this.innerHTML)'>2</div>
+	<div id='div1' onclick='word(this.innerHTML)'>3</div>
+	<div id='div1' onclick='word(this.innerHTML)'>4</div>
+	<div id='div1' onclick='word(this.innerHTML)'>5</div>
+	<div id='div1' onclick='word(this.innerHTML)'>6</div>
+	<div id='div1' onclick='word(this.innerHTML)'>7</div>
+	<div id='div1' onclick='word(this.innerHTML)'>8</div>
+	<div id='div1' onclick='word(this.innerHTML)'>9</div>
+	<div id='div1' onclick='word(this.innerHTML)'>0</div>
+	<div id='divem'></div>
+	<div id='divem'></div>
+	<div id='divback' onclick='del()'>backspace</div>
+	<div id='div2'></div>
+</div> 
+<div div='div12'>
+	<div id='divx2'></div>
+	<div id='div1' onclick='word(this.innerHTML)'>Q</div>
+	<div id='div1' onclick='word(this.innerHTML)'>W</div>
+	<div id='div1' onclick='word(this.innerHTML)'>E</div>
+	<div id='div1' onclick='word(this.innerHTML)'>R</div>
+	<div id='div1' onclick='word(this.innerHTML)'>T</div>
+	<div id='div1' onclick='word(this.innerHTML)'>Y</div>
+	<div id='div1' onclick='word(this.innerHTML)'>U</div>
+	<div id='div1' onclick='word(this.innerHTML)'>I</div>
+	<div id='div1' onclick='word(this.innerHTML)'>O</div>
+	<div id='div1' onclick='word(this.innerHTML)'>P</div>
+	<div id='divem'></div>
+	<div id='divem'></div>
+	<div id='divx2'></div>
+	<div id='div2'></div>
+</div> 	
+<div div='div13'>
+	<div id='divx3'></div>
+	<div id='div1' onclick='word(this.innerHTML)'>A</div>
+	<div id='div1' onclick='word(this.innerHTML)'>S</div>
+	<div id='div1' onclick='word(this.innerHTML)'>D</div>
+	<div id='div1' onclick='word(this.innerHTML)'>F</div>
+	<div id='div1' onclick='word(this.innerHTML)'>G</div>
+	<div id='div1' onclick='word(this.innerHTML)'>H</div>
+	<div id='div1' onclick='word(this.innerHTML)'>J</div>
+	<div id='div1' onclick='word(this.innerHTML)'>K</div>
+	<div id='div1' onclick='word(this.innerHTML)'>L</div>
+	<div id='divem'></div>
+	<div id='divem'></div>
+	<div id='divclear' onclick='empty()'>Clear</div>
+	<div id='div2'></div>
+</div> 		
+<div div='div14'>
+	<div id='divx4'></div>
+	<div id='div1' onclick='word(this.innerHTML)'>Z</div>
+	<div id='div1' onclick='word(this.innerHTML)'>X</div>
+	<div id='div1' onclick='word(this.innerHTML)'>C</div>
+	<div id='div1' onclick='word(this.innerHTML)'>V</div>
+	<div id='div1' onclick='word(this.innerHTML)'>B</div>
+	<div id='div1' onclick='word(this.innerHTML)'>N</div>
+	<div id='div1' onclick='word(this.innerHTML)'>M</div>
+	<div id='divem'></div>
+	<div id='divem'></div>
+	<div id='divem'></div>
+	<div id='divx4'></div>
+	<div id='div2'></div>
+</div>
+<div div='div14'>
+	<div id='divx2'></div>
+	<div id='divem'></div>
+	<div id='divem'></div>
+	<div id='divx2'></div>
+	<div id='divsp' onclick='bar(this.innerHTML)'></div>
+	<div id='divx2'></div>
+	<div id='divem'></div>
+	<div id='divx2'></div>
+	<div id='div2'></div>
+</div> 		 			
+ 	
+<div id='out'>
+</div>
+
+</div>
+<script src='js/index.js'></script>
+<script src='build/main.bundle.js'></script>
+</body>
+</html>
