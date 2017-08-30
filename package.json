@@ -1,0 +1,26 @@
+{
+  "name": "intro-to-es6",
+  "version": "1.0.0",
+  "description": "introdruction toes6\u001b[D\u001b[D\u001b[D \u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[uction to es6",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "babel --presets es2015 js/index.js -o build/main.bundle.js",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyeyeyez/intro-to-es6.git"
+  },
+  "author": "Sasithorn Nutkronburee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyeyeyez/intro-to-es6/issues"
+  },
+  "homepage": "https://github.com/eyeyeyez/intro-to-es6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.10.0"
+  }
+}
